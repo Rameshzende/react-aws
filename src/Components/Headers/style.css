@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    background-color: #e8e5e5;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 60%;
+}
+
+.header-content {
+    margin: auto;
+}
+
+
+.header .nav {
+    margin-right: auto;
+}
+
+.header .nav ul li {
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.header .nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+}
