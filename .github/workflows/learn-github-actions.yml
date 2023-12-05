@@ -7,6 +7,12 @@ jobs:
   build-app:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: tree
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'v18'
+      - name: build the project
+        run: npm run build
+      - name: finished 
+        run: hurrySSSSSSSSSSS
  
