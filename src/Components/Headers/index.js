@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         <div>
-          <img src={git48} />
+          <img src={git48} alt="dummy image"/>
         </div>
 
       </div>
