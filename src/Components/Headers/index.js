@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import git48 from '../../images/git48.svg'
+
 const Header = () => {
   return (
 
@@ -18,9 +18,9 @@ const Header = () => {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <img src={git48} alt="dummy image"/>
-        </div>
+        </div> */}
 
       </div>
 
