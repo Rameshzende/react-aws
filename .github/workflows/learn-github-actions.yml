@@ -16,5 +16,5 @@ jobs:
       - name: build the project
         run: npm run build
       - name: finished 
-        run: hurrySSSSSSSSSSS
+        run: echo "hurrySSSSSSSSSSS"
  
