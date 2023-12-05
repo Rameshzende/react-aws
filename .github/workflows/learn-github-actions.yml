@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'v18'
+      - name: install the packages
+        run: npm install
       - name: build the project
         run: npm run build
       - name: finished 
