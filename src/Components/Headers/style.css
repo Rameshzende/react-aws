@@ -4,14 +4,6 @@
     margin-bottom: 1.5rem;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    width: 60%;
-}
-
 .header-content {
     margin: auto;
 }
@@ -25,10 +17,35 @@
     margin-right: 1rem;
     font-weight: 400;
     font-size: medium;
+    position: relative;
 }
 
 .header .nav ul {
         list-style: none;
         padding: 0;
         display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+  border-bottom: 0.2rem solid rgb(14, 170, 222);
+}
+
+.nav li::before {
+    content: '';
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0;
+    width: 0;
+    height: 0.2rem;
+    background-color: rgb(14, 170, 222);
+    transition: width 0.2s ease-in-out;
+}
+
+
+.nav li:not(.active):hover::before {
+    width: 100%;
 }

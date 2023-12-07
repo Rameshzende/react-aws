@@ -1,0 +1,23 @@
+.home {
+    text-align: center;
+}
+
+.home h1 {
+   line-height: 1.2rem;
+   margin: 4rem auto;
+}
+
+.home h1 span {
+    text-align: center;
+    color: #3E3355;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-size: 18rem 1rem;
+    background-position: bottom;
+    background-image: linear-gradient(to bottom left, #ffcc00, #ff6699);
+    background-repeat: no-repeat;
+}
+
+.home p {
+    text-align: justify;
+}

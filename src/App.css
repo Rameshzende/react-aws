@@ -1,5 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 60%;
+    margin: auto;
+}
+
 ul {
     list-style: none;
     padding: 0;
     display: flex;
+}
+
+p {
+    line-height: 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
 }

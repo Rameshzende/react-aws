@@ -1,12 +1,22 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
-import FileUpload from './Components/fileUpload';
 import Header from './Components/Headers';
+import Home from './Components/Home';
+import Blog from './Components/Blog';
+import Project from './Components/Projects';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FileUpload />,
+    element: <Home />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/project",
+    element: <Project />,
   },
 ]);
 
